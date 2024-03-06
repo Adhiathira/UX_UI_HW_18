@@ -1,0 +1,121 @@
+.navigation {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10Px;
+}
+
+
+.logo {
+    align-items: flex-start;
+}
+
+h1 {
+    margin: 0%;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(195, 10, 102);
+}
+
+/* second section*/
+
+.descriptionbox {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 1%;
+    width: 1239px;
+    height: 350px;
+}
+
+.summery {
+    width: 350px;
+    height: 290px;
+    background-color: rgb(2, 0, 0);
+    padding: 2%;
+    color: white;
+}
+
+.summery h3 {
+    font-size: 30px;
+    margin: 0%;
+}
+
+.summery h4 {
+    font-size: 17px;
+}
+
+.profilepic {
+    margin: 0%;
+    padding: 1%;
+}
+
+.heart {
+    color: rgb(195, 10, 102);
+    margin-top: 250px;
+    margin-right: 200px;
+}
+
+.customline1 {
+    border: 1px solid white;
+    margin: 23px 0;
+}
+
+.customline2 {
+    border: 1px solid red;
+}
+
+.footerhead {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(89, 79, 79);
+    height: 150px;
+}
+
+
+
+
+.footeritems h3 {
+    padding: 3%;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+footer ul {
+    display: inline-block;
+    margin: -40px;
+
+}
+
+footer a {
+    padding: 0 15px;
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.keyword {
+    color: white;
+    padding: 1%;
+    font-size: 16px;
+    width: 200px;
+    height: 100px;
+
+}
+
+.xoxo {
+
+    background-color: black;
+    margin-bottom: 10px;
+
+}
+
+/*
