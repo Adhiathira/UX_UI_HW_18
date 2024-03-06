@@ -67,15 +67,14 @@ h1 {
     border: 1px solid red;
 }
 
+/* footer/
+
 .footerhead {
     display: flex;
     justify-content: space-between;
     background-color: rgb(89, 79, 79);
     height: 150px;
 }
-
-
-
 
 .footeritems h3 {
     padding: 3%;
