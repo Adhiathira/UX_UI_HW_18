@@ -44,6 +44,7 @@ h1 {
 
 }
 
+
 .details {
     background-color: #232323;
     height: 500px;
@@ -52,6 +53,7 @@ h1 {
     padding: 2%;
 }
 
+/* color words  */
 .summary h3 {
     font-size: 2vw;
     background: #D4145A;
