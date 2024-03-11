@@ -42,20 +42,21 @@ h1 {
     background-color: #232323;
     display: flex;
 
+
 }
 
 
 .details {
     background-color: #232323;
     height: 500px;
-    width: 39%;
+    width: auto;
     margin-left: 10%;
     padding: 2%;
 }
 
 /* color words  */
 .summary h3 {
-    font-size: 2vw;
+    font-size: 3vw;
     background: #D4145A;
     background: linear-gradient(to left, #D4145A 0%, #FBB03B 100%);
     -webkit-background-clip: text;
@@ -65,7 +66,7 @@ h1 {
 }
 
 .summary h4 {
-    font-size: 1vw;
+    font-size: 2vw;
     color: #D9D9D9;
 }
 
@@ -83,8 +84,7 @@ h1 {
 }
 
 .profilepic {
-    background-color: #232323;
-    width: 100%;
+    background-color: #905353;
     height: auto;
 }
 
@@ -237,7 +237,7 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: #090909;
-    width: 10%;
+    width: 15%;
     height: 150Px;
 
 }
@@ -271,8 +271,9 @@ li {
 
 
 .keyword {
-    width: 15%;
+    width: 25%;
     background-color: #090909;
+    align-items: end;
 
 }
 
