@@ -1,57 +1,56 @@
 * {
-
+    outline: 1px solid red;
     max-width: 1800px;
-
-
-
+    margin: auto;
 }
 
 /* Navigation section*/
 
 .navigation {
-    background-color: #181D26;
+    background-color: #090909;
     display: flex;
-    padding: 2%;
-    border-bottom: 1px solid #918f8f;
-    box-shadow: #1EAE98;
+    align-items: center;
+    padding: 10Px;
 }
 
-.logo {
 
-    width: 5%;
-    height: 5%;
-    margin-left: 0%;
+.logo {
+    align-items: flex-start;
+    width: 4%;
+    height: 4%;
 
 }
 
 h1 {
-    margin-left: 1%;
-    font-size: 32px;
+    margin-left: 0%;
+    font-size: 28px;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     color: #D9D9D9;
 }
 
-
-
 /* second section*/
 
 .descriptionbox {
-    background-color: #0D1117;
+    background-color: #232323;
     display: flex;
-
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 
+
 .summary {
-    background-color: #0D1117;
+    background-color: #232323;
     display: flex;
+
+
 }
 
 
 .details {
-    background-color: #0D1117;
+    background-color: #232323;
+    height: 500px;
     width: auto;
     margin-left: 10%;
     padding: 2%;
@@ -60,48 +59,19 @@ h1 {
 /* color words  */
 .summary h3 {
     font-size: 3vw;
-    background: #C23BFF;
-    background: linear-gradient(to right, #C23BFF 0%, #3D99F5 89%);
+    background: #D4145A;
+    background: linear-gradient(to left, #D4145A 0%, #FBB03B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    /*background: #D8B5FF;
-    background: linear-gradient(to right, #D8B5FF 0%, #1EAE98 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
 
 
 }
 
 .summary h4 {
-    font-size: 1vw;
+    font-size: 2vw;
     color: #D9D9D9;
-    max-width: fit-content;
-
 }
 
-/*
-.sline {
-    position: absolute;
-    height: 2px;
-    width: 40%;
-    background-color: #F3C033;
-    margin-left: 0%;
-    margin-top: 0%;
-}
-
-.sline::before {
-    content: '';
-    position: absolute;
-    height: 3px;
-    width: 50%;
-    background-color: #F3C033;
-    transform: rotate(-90deg);
-    margin-left: 70%;
-    bottom: 13000%;
-}
-
-*/
 
 .heart {
     display: flex;
@@ -116,19 +86,24 @@ h1 {
 }
 
 .profilepic {
-    background-color: #0D1117;
+    background-color: #905353;
     height: auto;
 }
 
+
 /* box  section*/
+
+.body {
+    background-color: #3D3D3D;
+}
 
 .outterbox {
     display: grid;
     width: 100%;
     max-width: 1200px;
-    height: auto;
+    height: 900px;
     margin: 0 auto;
-    background-color: #12181F;
+    background-color: #3D3D3D;
 }
 
 
@@ -137,18 +112,27 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     max-width: 1000%;
-    background-color: #12181F;
+    background-color: #3D3D3D;
     justify-content: center;
     align-items: center;
 }
+
+.box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #a36565;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 
 
 .box1 {
     background-color: #F3C033;
-    background-image: url("../images/greenbox.png");
     position: relative;
-    background-repeat: no-repeat;
     width: 350px;
     height: 350px;
     padding: 20px;
@@ -159,9 +143,7 @@ h1 {
 }
 
 .box2 {
-
-    background-image: url("../images/pinkbox.png");
-    background-repeat: no-repeat;
+    background-color: #EB43AD;
     position: relative;
     width: 350px;
     height: 350px;
@@ -174,9 +156,7 @@ h1 {
 
 
 .box3 {
-    background-image: url("../images/bluebox.png");
-
-    background-repeat: no-repeat;
+    background-color: #34C3F1;
     position: relative;
     width: 350px;
     height: 350px;
@@ -188,8 +168,7 @@ h1 {
 }
 
 .box4 {
-    background-image: url("../images/yellowbox.png");
-    background-repeat: no-repeat;
+    background-color: #1EC46E;
     position: relative;
     width: 350px;
     height: 350px;
@@ -246,24 +225,22 @@ h1 {
 
 
 
+
 /* footer section*/
 
 .footerhead {
     display: flex;
     justify-content: space-between;
-    background-color: #181D26;
-    padding: 2%;
-    border-top: 1px solid #918f8f;
-    box-shadow: #1EAE98;
-
+    background-color: #090909;
+    /*height: 150%; */
 }
 
 .footeritems {
     align-items: center;
     justify-content: center;
-    background-color: #181D26;
+    background-color: #090909;
     width: 15%;
-
+    /* height: 150Px;*/
 
 }
 
@@ -279,7 +256,7 @@ footer ul {
     align-items: center;
     justify-content: space-around;
     padding: 1%;
-    background-color: #181D26;
+    background-color: #090909;
     width: 80%;
 }
 
@@ -297,7 +274,7 @@ li {
 
 .keyword {
     width: 25%;
-    background-color: #181D26;
+    background-color: #090909;
     align-items: end;
 
 }
